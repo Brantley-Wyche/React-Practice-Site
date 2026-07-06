@@ -100,6 +100,8 @@ Goal: anyone clones a Bugbound repo, opens it with *their* coding agent, and the
 
 **Open questions to settle with Brantley at kickoff:** does Season 3 land inside the Season 1 repo (likely — it's the polished, framework-light one), the Season 2 repo, or both? Should generated levels go in a `src/levels/community/` namespace so `main` stays a known-good cartridge?
 
+> **STATUS (2026-07-05): Season 3 is IMPLEMENTED** in the Season 1 repo (built by Claude Fable 5 on the `season-3` branch). Decisions made: generated levels live in `src/levels/custom/` (auto-discovered via `import.meta.glob`, numbering continues from 16), MIT license under Brantley Wyche. Shipped: `.claude/skills/bugbound-levelsmith/SKILL.md`, `AGENTS.md`, `CONTRIBUTING.md`, `LICENSE`, `npm run validate-levels`, `npm run encode`. Remaining for a future session: Brantley merges `season-3` → `main` when his playthrough is at a good pause point, optionally adds README screenshots, and flips the repo public.
+
 ---
 
 ## Working agreements (how Brantley likes to collaborate)
