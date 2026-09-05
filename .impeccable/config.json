@@ -1,0 +1,89 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-radius",
+        "value": "5px",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-09-05T17:55:17.312Z",
+        "reason": "Agent verified: this radius occurs only in preserved .lv-* teaching examples; AGENTS.md excludes exercise styles from shell redesign."
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#04180a",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-09-05T17:55:17.486Z",
+        "reason": "Agent verified: this color occurs only in preserved .lv-* teaching examples; AGENTS.md excludes exercise styles from shell redesign."
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgba(63, 185, 80, 0.3)",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-09-05T17:55:17.660Z",
+        "reason": "Agent verified: this color occurs only in preserved .lv-* teaching examples; AGENTS.md excludes exercise styles from shell redesign."
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#f4f6fa",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-09-05T17:55:17.841Z",
+        "reason": "Agent verified: this color occurs only in preserved .lv-* teaching examples; AGENTS.md excludes exercise styles from shell redesign."
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#d4dae4",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-09-05T17:55:18.010Z",
+        "reason": "Agent verified: this color occurs only in preserved .lv-* teaching examples; AGENTS.md excludes exercise styles from shell redesign."
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#5a677a",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-09-05T17:55:18.199Z",
+        "reason": "Agent verified: this color occurs only in preserved .lv-* teaching examples; AGENTS.md excludes exercise styles from shell redesign."
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#0a0d12",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-09-05T17:55:18.380Z",
+        "reason": "Agent verified: this color occurs only in preserved .lv-* teaching examples; AGENTS.md excludes exercise styles from shell redesign."
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#dbe4ee",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-09-05T17:55:18.550Z",
+        "reason": "Agent verified: this color occurs only in preserved .lv-* teaching examples; AGENTS.md excludes exercise styles from shell redesign."
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#4cc75e",
+        "files": [
+          "src/styles/global.css"
+        ],
+        "createdAt": "2026-09-05T17:55:18.724Z",
+        "reason": "Agent verified: this color occurs only in preserved .lv-* teaching examples; AGENTS.md excludes exercise styles from shell redesign."
+      }
+    ]
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-05T16:32:34.689Z",
+  "title": "Design System: Bugbound Season 1",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Dark graphite",
+        "canonical": "#191c1a",
+        "tonalRamp": [
+          "oklch(15.00% 0.0059 156.71)",
+          "oklch(26.43% 0.0059 156.71)",
+          "oklch(37.86% 0.0059 156.71)",
+          "oklch(49.29% 0.0059 156.71)",
+          "oklch(60.71% 0.0059 156.71)",
+          "oklch(72.14% 0.0059 156.71)",
+          "oklch(83.57% 0.0059 156.71)",
+          "oklch(95.00% 0.0059 156.71)"
+        ]
+      },
+      "bg-soft": {
+        "role": "neutral",
+        "displayName": "Soft graphite",
+        "canonical": "#1f2420",
+        "tonalRamp": [
+          "oklch(15.00% 0.0104 151.38)",
+          "oklch(26.43% 0.0104 151.38)",
+          "oklch(37.86% 0.0104 151.38)",
+          "oklch(49.29% 0.0104 151.38)",
+          "oklch(60.71% 0.0104 151.38)",
+          "oklch(72.14% 0.0104 151.38)",
+          "oklch(83.57% 0.0104 151.38)",
+          "oklch(95.00% 0.0104 151.38)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Graphite panel",
+        "canonical": "#252b26",
+        "tonalRamp": [
+          "oklch(15.00% 0.0124 150.20)",
+          "oklch(26.43% 0.0124 150.20)",
+          "oklch(37.86% 0.0124 150.20)",
+          "oklch(49.29% 0.0124 150.20)",
+          "oklch(60.71% 0.0124 150.20)",
+          "oklch(72.14% 0.0124 150.20)",
+          "oklch(83.57% 0.0124 150.20)",
+          "oklch(95.00% 0.0124 150.20)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Ruled graphite",
+        "canonical": "#414940",
+        "tonalRamp": [
+          "oklch(15.00% 0.0182 142.12)",
+          "oklch(26.43% 0.0182 142.12)",
+          "oklch(37.86% 0.0182 142.12)",
+          "oklch(49.29% 0.0182 142.12)",
+          "oklch(60.71% 0.0182 142.12)",
+          "oklch(72.14% 0.0182 142.12)",
+          "oklch(83.57% 0.0182 142.12)",
+          "oklch(95.00% 0.0182 142.12)"
+        ]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Strong graphite rule",
+        "canonical": "#697464",
+        "tonalRamp": [
+          "oklch(15.00% 0.0277 135.79)",
+          "oklch(26.43% 0.0277 135.79)",
+          "oklch(37.86% 0.0277 135.79)",
+          "oklch(49.29% 0.0277 135.79)",
+          "oklch(60.71% 0.0277 135.79)",
+          "oklch(72.14% 0.0277 135.79)",
+          "oklch(83.57% 0.0277 135.79)",
+          "oklch(95.00% 0.0277 135.79)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Warm offwhite",
+        "canonical": "#edece5",
+        "tonalRamp": [
+          "oklch(15.00% 0.0094 99.99)",
+          "oklch(26.43% 0.0094 99.99)",
+          "oklch(37.86% 0.0094 99.99)",
+          "oklch(49.29% 0.0094 99.99)",
+          "oklch(60.71% 0.0094 99.99)",
+          "oklch(72.14% 0.0094 99.99)",
+          "oklch(83.57% 0.0094 99.99)",
+          "oklch(95.00% 0.0094 99.99)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted sage grey",
+        "canonical": "#b0b5ab",
+        "tonalRamp": [
+          "oklch(15.00% 0.0151 128.68)",
+          "oklch(26.43% 0.0151 128.68)",
+          "oklch(37.86% 0.0151 128.68)",
+          "oklch(49.29% 0.0151 128.68)",
+          "oklch(60.71% 0.0151 128.68)",
+          "oklch(72.14% 0.0151 128.68)",
+          "oklch(83.57% 0.0151 128.68)",
+          "oklch(95.00% 0.0151 128.68)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Subdued amber",
+        "canonical": "#dbbd86",
+        "tonalRamp": [
+          "oklch(15.00% 0.0794 82.25)",
+          "oklch(26.43% 0.0794 82.25)",
+          "oklch(37.86% 0.0794 82.25)",
+          "oklch(49.29% 0.0794 82.25)",
+          "oklch(60.71% 0.0794 82.25)",
+          "oklch(72.14% 0.0794 82.25)",
+          "oklch(83.57% 0.0794 82.25)",
+          "oklch(95.00% 0.0794 82.25)"
+        ]
+      },
+      "ok": {
+        "role": "neutral",
+        "displayName": "Sage feedback",
+        "canonical": "#a4c39b",
+        "tonalRamp": [
+          "oklch(15.00% 0.0649 138.68)",
+          "oklch(26.43% 0.0649 138.68)",
+          "oklch(37.86% 0.0649 138.68)",
+          "oklch(49.29% 0.0649 138.68)",
+          "oklch(60.71% 0.0649 138.68)",
+          "oklch(72.14% 0.0649 138.68)",
+          "oklch(83.57% 0.0649 138.68)",
+          "oklch(95.00% 0.0649 138.68)"
+        ]
+      },
+      "err": {
+        "role": "neutral",
+        "displayName": "Soft coral feedback",
+        "canonical": "#f3a398",
+        "tonalRamp": [
+          "oklch(15.00% 0.0972 28.06)",
+          "oklch(26.43% 0.0972 28.06)",
+          "oklch(37.86% 0.0972 28.06)",
+          "oklch(49.29% 0.0972 28.06)",
+          "oklch(60.71% 0.0972 28.06)",
+          "oklch(72.14% 0.0972 28.06)",
+          "oklch(83.57% 0.0972 28.06)",
+          "oklch(95.00% 0.0972 28.06)"
+        ]
+      },
+      "info": {
+        "role": "neutral",
+        "displayName": "Pale blue code",
+        "canonical": "#b6ccdf",
+        "tonalRamp": [
+          "oklch(15.00% 0.0358 244.26)",
+          "oklch(26.43% 0.0358 244.26)",
+          "oklch(37.86% 0.0358 244.26)",
+          "oklch(49.29% 0.0358 244.26)",
+          "oklch(60.71% 0.0358 244.26)",
+          "oklch(72.14% 0.0358 244.26)",
+          "oklch(83.57% 0.0358 244.26)",
+          "oklch(95.00% 0.0358 244.26)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Register display",
+        "purpose": "Introductory headline."
+      },
+      "headline": {
+        "displayName": "Lesson headline",
+        "purpose": "Incident titles."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Document section headings."
+      },
+      "body": {
+        "displayName": "Reading body",
+        "purpose": "General shell prose."
+      },
+      "label": {
+        "displayName": "Operational reference",
+        "purpose": "Compact identifiers and progress/status labels."
+      },
+      "button": {
+        "displayName": "Button label",
+        "purpose": "Primary and outlined action labels."
+      },
+      "display-mobile": {
+        "displayName": "display mobile",
+        "purpose": "Register intro at <=600px."
+      },
+      "headline-mobile": {
+        "displayName": "headline mobile",
+        "purpose": "Lesson title at <=600px."
+      },
+      "wordmark": {
+        "displayName": "wordmark",
+        "purpose": "Linked wordmark."
+      },
+      "wordmark-mobile": {
+        "displayName": "wordmark mobile",
+        "purpose": "Wordmark at <=600px."
+      },
+      "notice-title": {
+        "displayName": "notice title",
+        "purpose": "Desktop notice heading."
+      },
+      "notice-browse": {
+        "displayName": "notice browse",
+        "purpose": "Desktop notice browsing reassurance."
+      },
+      "metadata": {
+        "displayName": "metadata",
+        "purpose": "Season, register count, lesson metadata, file label, concept topic, hint tier, back/section links, footer."
+      },
+      "metadata-mobile": {
+        "displayName": "metadata mobile",
+        "purpose": "Register count, lesson metadata, footer at <=600px."
+      },
+      "credit": {
+        "displayName": "credit",
+        "purpose": "Footer credit and assignment note."
+      },
+      "credit-mobile": {
+        "displayName": "credit mobile",
+        "purpose": "Credit and assignment note at <=600px."
+      },
+      "quiet-action": {
+        "displayName": "quiet action",
+        "purpose": "Quiet and reset controls."
+      },
+      "quiet-action-mobile": {
+        "displayName": "quiet action mobile",
+        "purpose": "Quiet action at <=600px; reset remains 12px."
+      },
+      "text-link": {
+        "displayName": "text link",
+        "purpose": "Browse and verification continuation links; also hint toggles and assignment description."
+      },
+      "intro-body": {
+        "displayName": "intro body",
+        "purpose": "Register introduction."
+      },
+      "intro-body-mobile": {
+        "displayName": "intro body mobile",
+        "purpose": "Register introduction at <=600px."
+      },
+      "assignment-folio": {
+        "displayName": "assignment folio",
+        "purpose": "Assignment number above1050px."
+      },
+      "assignment-folio-compact": {
+        "displayName": "assignment folio compact",
+        "purpose": "Assignment number at <=1050px."
+      },
+      "assignment-folio-stacked": {
+        "displayName": "assignment folio stacked",
+        "purpose": "Assignment number at <=900px."
+      },
+      "assignment-folio-mobile": {
+        "displayName": "assignment folio mobile",
+        "purpose": "Assignment number at <=600px; saved all-complete count at all widths."
+      },
+      "assignment-title": {
+        "displayName": "assignment title",
+        "purpose": "Assignment heading; uses title role at <=600px."
+      },
+      "register-title": {
+        "displayName": "register title",
+        "purpose": "Register section heading."
+      },
+      "title-mobile": {
+        "displayName": "title mobile",
+        "purpose": "Register and lesson section headings at <=600px."
+      },
+      "incident-number": {
+        "displayName": "incident number",
+        "purpose": "Register number."
+      },
+      "incident-number-mobile": {
+        "displayName": "incident number mobile",
+        "purpose": "Register number at <=600px."
+      },
+      "incident-name": {
+        "displayName": "incident name",
+        "purpose": "Locked or resolved incident title."
+      },
+      "incident-name-open": {
+        "displayName": "incident name open",
+        "purpose": "Open incident title."
+      },
+      "incident-name-mobile": {
+        "displayName": "incident name mobile",
+        "purpose": "Locked/resolved title at <=600px."
+      },
+      "incident-name-open-mobile": {
+        "displayName": "incident name open mobile",
+        "purpose": "Open title at <=600px."
+      },
+      "incident-concept": {
+        "displayName": "incident concept",
+        "purpose": "Register concept."
+      },
+      "incident-concept-mobile": {
+        "displayName": "incident concept mobile",
+        "purpose": "Register concept at <=600px."
+      },
+      "status-mobile": {
+        "displayName": "status mobile",
+        "purpose": "Register status at <=600px."
+      },
+      "lesson-folio": {
+        "displayName": "lesson folio",
+        "purpose": "Lesson folio."
+      },
+      "lesson-folio-mobile": {
+        "displayName": "lesson folio mobile",
+        "purpose": "Lesson folio at <=600px."
+      },
+      "bug-report": {
+        "displayName": "bug report",
+        "purpose": "Bug report symptom."
+      },
+      "concept-summary": {
+        "displayName": "concept summary",
+        "purpose": "Native concept summary."
+      },
+      "concept-prose": {
+        "displayName": "concept prose",
+        "purpose": "Expanded concept prose."
+      },
+      "section-note": {
+        "displayName": "section note",
+        "purpose": "Preview, restart, last-run, idle-check and hint notes."
+      },
+      "crash-title": {
+        "displayName": "crash title",
+        "purpose": "Preview crash heading."
+      },
+      "crash-message": {
+        "displayName": "crash message",
+        "purpose": "Preview crash detail."
+      },
+      "check-summary": {
+        "displayName": "check summary",
+        "purpose": "Last-run passed count."
+      },
+      "check-name": {
+        "displayName": "check name",
+        "purpose": "Check name."
+      },
+      "check-error": {
+        "displayName": "check error",
+        "purpose": "Failed check detail."
+      },
+      "hint-title": {
+        "displayName": "hint title",
+        "purpose": "Hint section heading."
+      },
+      "hint-body": {
+        "displayName": "hint body",
+        "purpose": "Revealed hints and review list."
+      },
+      "resolution-title": {
+        "displayName": "resolution title",
+        "purpose": "Saved-completion heading."
+      },
+      "resolution-body": {
+        "displayName": "resolution body",
+        "purpose": "Saved-completion explanation."
+      },
+      "inline-code": {
+        "displayName": "inline code",
+        "purpose": "Inline code and file paths."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "interactive-color-transition",
+        "value": "color 150ms, background-color 150ms, border-color 150ms",
+        "purpose": "Source-defined color feedback on buttons, links, and summaries; removed with prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop-notice",
+        "value": "1100px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1050px"
+      },
+      {
+        "name": "single-column-lesson",
+        "value": "900px"
+      },
+      {
+        "name": "mobile",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The filled action used to run checks and move through incidents.",
+      "html": "<button class=\"ds-primary\">Run checks</button>",
+      "css": ".ds-primary { display: inline-flex; align-items: center; justify-content: center; gap: 20px; min-height: 44px; border: 1px solid var(--border-strong, #697464); border-radius: var(--radius-sm, 3px); padding: 10px 18px; font: 600 13px/1.5 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); text-decoration: none; cursor: pointer; background: var(--accent, #dbbd86); color: var(--bg, #191c1a); border-color: var(--accent, #dbbd86); } .ds-primary:hover { background: var(--text, #edece5); border-color: var(--text, #edece5); color: var(--bg, #191c1a); } .ds-primary:disabled { background: var(--panel, #252b26); color: var(--muted, #b0b5ab); border-color: var(--border, #414940); cursor: wait; } .ds-primary:focus-visible { outline: 2px solid var(--accent, #dbbd86); outline-offset: 4px; } .ds-primary { transition: color 150ms, background-color 150ms, border-color 150ms; } @media (prefers-reduced-motion: reduce) { .ds-primary { transition: none; } }"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "The outlined recovery action from the preview error boundary.",
+      "html": "<button class=\"ds-secondary\">Try again</button>",
+      "css": ".ds-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 20px; min-height: 44px; border: 1px solid var(--border-strong, #697464); border-radius: var(--radius-sm, 3px); padding: 10px 18px; font: 600 13px/1.5 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); text-decoration: none; cursor: pointer; color: var(--text, #edece5); background: transparent; } .ds-secondary:hover { color: var(--text, #edece5); border-color: var(--text, #edece5); } .ds-secondary:disabled { background: var(--panel, #252b26); color: var(--muted, #b0b5ab); border-color: var(--border, #414940); cursor: wait; } .ds-secondary:focus-visible { outline: 2px solid var(--accent, #dbbd86); outline-offset: 4px; } .ds-secondary { transition: color 150ms, background-color 150ms, border-color 150ms; } @media (prefers-reduced-motion: reduce) { .ds-secondary { transition: none; } }"
+    },
+    {
+      "name": "Quiet action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Restart action and associated explanation, positioned below the stage in the application.",
+      "html": "<button class=\"ds-quiet\" aria-describedby=\"ds-restart-note\">Restart preview</button><p class=\"ds-restart-note\" id=\"ds-restart-note\">Restarting reloads the exercise, clearing its component state and timers. Your source files and progress stay intact.</p>",
+      "css": ".ds-quiet { color: var(--muted, #b0b5ab); background: none; border: 0; padding: 10px 4px; min-height: 44px; font: 12px/1.65 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); text-decoration: underline; text-underline-offset: 4px; cursor: pointer; } .ds-quiet:hover { color: var(--text, #edece5); } .ds-quiet:focus-visible { outline: 2px solid var(--accent, #dbbd86); outline-offset: 4px; } .ds-quiet { transition: color 150ms, background-color 150ms, border-color 150ms; } @media (prefers-reduced-motion: reduce) { .ds-quiet { transition: none; } } .ds-restart-note { margin: 12px 0 0; color: var(--muted); font: 13px/1.65 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); } @media (max-width: 600px) { .ds-quiet { font-size: 11px; } }"
+    },
+    {
+      "name": "Section navigation",
+      "kind": "nav",
+      "description": "Native in-page jump buttons; application code scrolls and focuses section targets without changing the hash route.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"In this incident\"><button type=\"button\" class=\"ds-nav-link\">Read the concept</button><button type=\"button\" class=\"ds-nav-link\">Try the preview</button><button type=\"button\" class=\"ds-nav-link\">Run the checks</button><button type=\"button\" class=\"ds-nav-link\">Get a hint</button></nav>",
+      "css": ".ds-nav { display: flex; flex-wrap: wrap; gap: 4px 28px; border-bottom: 1px solid var(--border, #414940); padding-bottom: 10px; margin-bottom: 32px; } .ds-nav-link { border: 0; padding: 0; background: none; text-align: left; cursor: pointer; display: inline-flex; align-items: center; min-height: 44px; font: 12px/1.65 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); color: var(--muted, #b0b5ab); text-decoration: none; text-underline-offset: 5px; } .ds-nav-link:hover { color: var(--accent, #dbbd86); text-decoration: underline; } .ds-nav-link:focus-visible { outline: 2px solid var(--accent, #dbbd86); outline-offset: 4px; } .ds-nav-link { transition: color 150ms, background-color 150ms, border-color 150ms; } @media (prefers-reduced-motion: reduce) { .ds-nav-link { transition: none; } } @media (max-width: 600px) { .ds-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; margin-bottom: 24px; } }"
+    },
+    {
+      "name": "Incident register row",
+      "kind": "custom",
+      "refersTo": "incident-row",
+      "description": "An available incident rendered as a ruled link; title and concept are representative content slots.",
+      "html": "<a class=\"ds-row\" href=\"#/\"><span class=\"ds-number\">01</span><span class=\"ds-name\">Incident title</span><span class=\"ds-concept\">React concept</span><span class=\"ds-status\">Open</span></a>",
+      "css": ".ds-row { display: grid; grid-template-columns: 48px minmax(0, 1.15fr) minmax(0, 1fr) 76px; align-items: center; gap: 20px; min-height: 64px; padding: 16px 12px; border-bottom: 1px solid var(--border, #414940); text-decoration: none; color: var(--text, #edece5); font-family: var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); } .ds-row:hover { background: var(--bg-soft, #1f2420); color: var(--text, #edece5); } .ds-number { font: 14px var(--font-mono, 'Cascadia Mono', Consolas, ui-monospace, monospace); color: var(--accent, #dbbd86); } .ds-name { font-weight: 650; font-size: 15px; line-height: 1.5; overflow-wrap: anywhere; } .ds-concept { color: var(--muted, #b0b5ab); font-size: 12px; line-height: 1.5; } .ds-status { text-align: right; font: 11px var(--font-mono, 'Cascadia Mono', Consolas, ui-monospace, monospace); color: var(--accent, #dbbd86); } .ds-row:focus-visible { outline: 2px solid var(--accent, #dbbd86); outline-offset: 4px; } .ds-row:focus-visible { outline-offset: -2px; } .ds-row { transition: color 150ms, background-color 150ms, border-color 150ms; } @media (prefers-reduced-motion: reduce) { .ds-row { transition: none; } } @media (max-width: 900px) { .ds-row { grid-template-columns: 36px minmax(0, 1.2fr) minmax(0, 1fr) 68px; gap: 16px; } } @media (max-width: 600px) { .ds-row { grid-template-columns: 24px minmax(0, 1fr) 60px; gap: 4px 12px; padding: 16px 0; } .ds-number { grid-row: 1 / 3; align-self: start; padding-top: 2px; font-size: 12px; } .ds-name { font-size: 14px; } .ds-concept { grid-column: 2; font-size: 11px; } .ds-status { grid-column: 3; grid-row: 1 / 3; align-self: start; padding-top: 4px; font-size: 10px; } }"
+    },
+    {
+      "name": "Concept disclosure",
+      "kind": "custom",
+      "refersTo": "concept-disclosure",
+      "description": "The initially closed native concept entry; its content slot contains no lesson solution.",
+      "html": "<details class=\"ds-details\"><summary class=\"ds-summary\"><span>Read the concept</span><span class=\"ds-topic\">React concept</span></summary><div class=\"ds-content\"><p class=\"ds-prose\">Lesson prose appears here when this entry is opened.</p></div></details>",
+      "css": ".ds-details { border-top: 1px solid var(--border, #414940); border-bottom: 1px solid var(--border, #414940); color: var(--text, #edece5); font: 15px/1.65 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); } .ds-summary { min-height: 56px; padding: 16px 4px; font-size: 14px; font-weight: 600; cursor: pointer; } .ds-summary::marker { color: var(--accent, #dbbd86); } .ds-topic { display: block; color: var(--muted, #b0b5ab); font-size: 12px; font-weight: 400; margin: 4px 0 0 17px; } .ds-content { padding: 4px 0 20px; } .ds-prose { margin: 0; max-width: 70ch; line-height: 1.85; } .ds-summary:focus-visible { outline: 2px solid var(--accent, #dbbd86); outline-offset: 4px; } .ds-summary { transition: color 150ms, background-color 150ms, border-color 150ms; } @media (prefers-reduced-motion: reduce) { .ds-summary { transition: none; } }"
+    },
+    {
+      "name": "Verification log and continuation",
+      "kind": "custom",
+      "description": "Last-run evidence is distinct from saved completion; sample check count/name are representative.",
+      "html": "<div class=\"ds-log\"><div aria-live=\"polite\" aria-atomic=\"false\"><p class=\"ds-check-summary\">Last run: 1 of 1 checks passed.</p><div class=\"ds-check\"><span class=\"ds-chip\">PASS</span><div class=\"ds-check-body\"><div class=\"ds-check-name\">Check name</div></div></div></div><p class=\"ds-last-run\">Results describe the last run. Re-run after editing your source files.</p><div class=\"ds-followup\"><a class=\"ds-text-link\" href=\"#/\">Return to the register</a></div></div>",
+      "css": ".ds-check { display: flex; gap: 16px; align-items: baseline; padding: 16px 0; border-top: 1px solid var(--border, #414940); color: var(--text, #edece5); font: 15px/1.65 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); } .ds-chip { flex-shrink: 0; font: 11px var(--font-mono, 'Cascadia Mono', Consolas, ui-monospace, monospace); color: var(--ok, #a4c39b); } .ds-check-body { min-width: 0; } .ds-check-name { font-size: 13px; font-weight: 550; } .ds-check.ds-fail .ds-chip { color: var(--err, #f3a398); } .ds-check.ds-pending .ds-chip { color: var(--muted, #b0b5ab); } .ds-check-error { margin-top: 8px; color: var(--err, #f3a398); font: 12px/1.75 var(--font-mono, 'Cascadia Mono', Consolas, ui-monospace, monospace); white-space: pre-wrap; overflow-wrap: anywhere; } .ds-log { margin-top: 24px; color: var(--text); font: 15px/1.65 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); } .ds-check-summary { margin: 0 0 16px; font-weight: 600; } .ds-last-run { margin: 16px 0 0; color: var(--muted); font-size: 13px; line-height: 1.65; } .ds-followup { margin-top: 16px; } .ds-text-link { display: inline-flex; align-items: center; gap: 24px; min-height: 44px; color: inherit; font-size: 13px; text-decoration-thickness: 1px; text-underline-offset: 5px; transition: color 150ms, background-color 150ms, border-color 150ms; } .ds-text-link:hover { color: var(--accent); } .ds-text-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; } @media (prefers-reduced-motion: reduce) { .ds-text-link { transition: none; } }"
+    },
+    {
+      "name": "Desktop setup notice",
+      "kind": "custom",
+      "refersTo": "desktop-notice",
+      "description": "Full amber setup notice with actual visibility condition: <=1100px or non-hover coarse pointer. The sample stays hidden on larger fine-pointer viewports.",
+      "html": "<aside class=\"ds-notice\" aria-labelledby=\"ds-notice-title\"><svg class=\"ds-monitor\" viewBox=\"0 0 32 32\" fill=\"none\" aria-hidden=\"true\"><rect x=\"3\" y=\"4\" width=\"26\" height=\"18\" rx=\"2\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M16 22v6M10 28h12\" stroke=\"currentColor\" stroke-width=\"2\"/></svg><div><h2 class=\"ds-notice-title\" id=\"ds-notice-title\">Use a desktop to work on the exercises.</h2><p class=\"ds-notice-body\">Bugbound is a desktop-first project. To fix bugs, edit the actual source files in a local code editor, let Vite recompile the app, then run the checks in a desktop browser.</p><p class=\"ds-notice-body ds-notice-browse\">You can still browse the lessons here.</p></div></aside>",
+      "css": ".ds-notice { display: none; font: 15px/1.65 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); } .ds-monitor { width: 32px; height: 32px; flex-shrink: 0; } .ds-notice-title { margin: 0 0 12px; font-size: 22px; font-weight: 600; line-height: 1.3; letter-spacing: -0.02em; text-wrap: balance; } .ds-notice-body { margin: 0; max-width: 70ch; font-size: 15px; line-height: 1.65; } .ds-notice-browse { margin-top: 12px; font-weight: 600; } @media (max-width: 1100px), (hover: none) and (pointer: coarse) { .ds-notice { display: flex; align-items: flex-start; gap: 20px; margin-top: 24px; padding: 24px; background: var(--accent, #dbbd86); color: var(--bg, #191c1a); border-radius: var(--radius, 4px); } } @media (max-width: 600px) { .ds-notice { display: block; padding: 20px; } .ds-monitor { margin-bottom: 12px; } }"
+    },
+    {
+      "name": "Saved completion",
+      "kind": "custom",
+      "refersTo": "saved-resolution",
+      "description": "Historical completion remains saved independently of last-run results; final-incident continuation variant. On write failure, use Completed this visit and explicitly state that progress has not been saved. The status notice above main content offers Retry saving progress or Retry reset for the failed operation, with the existing error outline and native button.",
+      "html": "<div aria-live=\"polite\" aria-atomic=\"true\"><section class=\"ds-resolution\" aria-labelledby=\"ds-resolution-title\"><div><h2 class=\"ds-resolution-title\" id=\"ds-resolution-title\">Resolution recorded.</h2><p class=\"ds-resolution-body\">Your earned progress is saved. Run the checks to verify your current source.</p></div><a class=\"ds-primary\" href=\"#/\">Return to the register</a></section></div>",
+      "css": ".ds-primary { display: inline-flex; align-items: center; justify-content: center; gap: 20px; min-height: 44px; border: 1px solid var(--border-strong, #697464); border-radius: var(--radius-sm, 3px); padding: 10px 18px; font: 600 13px/1.5 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); text-decoration: none; cursor: pointer; background: var(--accent, #dbbd86); color: var(--bg, #191c1a); border-color: var(--accent, #dbbd86); } .ds-primary:hover { background: var(--text, #edece5); border-color: var(--text, #edece5); color: var(--bg, #191c1a); } .ds-primary:disabled { background: var(--panel, #252b26); color: var(--muted, #b0b5ab); border-color: var(--border, #414940); cursor: wait; } .ds-primary:focus-visible { outline: 2px solid var(--accent, #dbbd86); outline-offset: 4px; } .ds-primary { transition: color 150ms, background-color 150ms, border-color 150ms; } @media (prefers-reduced-motion: reduce) { .ds-primary { transition: none; } } .ds-resolution { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px; margin-bottom: 32px; padding: 24px 0; border-bottom: 1px solid var(--border); font: 15px/1.65 var(--font-sans, 'Public Sans', 'Segoe UI', system-ui, sans-serif); } .ds-resolution-title { margin: 0; color: var(--ok); font-size: 28px; font-weight: 600; line-height: 1.3; letter-spacing: -0.02em; text-wrap: balance; } .ds-resolution-body { margin: 8px 0 0; color: var(--muted); font-size: 14px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The on-call field notebook",
+    "overview": "Bugbound uses dark graphite, warm offwhite, and subdued amber to make debugging feel like working through a practical notebook. Ruled registers, prominent folio numbers, and a continuous lesson document give the interface its identity.\n\nThe shell is restrained and readable beside an editor. Typography, alignment, and thin rules establish hierarchy; decorative cards and colored side-border sections are outside the approved direction. A prominent amber setup notice explains the desktop requirement while keeping lesson browsing available. This document records the implemented system in `src/styles/global.css` and `src/shell/`; it is a design reference, not a review report.",
+    "keyCharacteristics": [
+      "Dark graphite surfaces with warm offwhite reading text.",
+      "Subdued amber for primary actions, open incidents, and folio numbers.",
+      "Thin rules and aligned entries instead of a card grid.",
+      "Public Sans prose paired with compact monospaced references.",
+      "Native navigation and optional disclosure within a continuous document.",
+      "A prominent desktop setup notice that preserves lesson browsing.",
+      "Saved completion distinguished from the most recent verification run."
+    ],
+    "rules": [
+      {
+        "name": "The Status Text Rule",
+        "body": "Color reinforces explicit words such as Open, Locked, Resolved, Completion saved, PASS, FAIL, and PEND; it does not carry the state alone.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reference Type Rule",
+        "body": "Keep prose in Public Sans and reserve monospace for operational references and measured results.",
+        "section": "typography"
+      },
+      {
+        "name": "The Continuous Document Rule",
+        "body": "Use rules and spacing to separate lesson sections; reserve the outlined inset surface for the live preview rather than wrapping every section in a card.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the ruled incident register and continuous lesson document.",
+      "**Do** use amber for primary actions, open status, folios, and visible keyboard focus.",
+      "**Do** pair status colors with readable state labels.",
+      "**Do** keep native links, native concept disclosure, and explicit hint controls.",
+      "**Do** retain readable wrapping and the single-column lesson order on narrow screens.",
+      "**Do** implement the shell with simple React and plain CSS.",
+      "**Do** make the desktop setup requirement prominent while allowing lesson browsing.",
+      "**Do** distinguish saved completion from last-run verification and keep continuation beside the log."
+    ],
+    "donts": [
+      "**Don't** reintroduce a generic card grid or colored side-border lesson cards.",
+      "**Don't** turn exercise-local cards, inputs, tags, or chart styles into shell primitives.",
+      "**Don't** add shadows, decorative motion, Tailwind, or an SCSS system to reproduce this design.",
+      "**Don't** expose hidden hint content as decoration or sample copy."
+    ]
+  }
+}
